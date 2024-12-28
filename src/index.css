@@ -1,0 +1,42 @@
+.container{
+  margin-top :250px;
+  margin-left: 450px;
+  font-family: bold;
+}
+
+.input{
+  width:300px;
+  height:30px;
+  border-radius: 10px;
+}
+
+.button{
+  margin-left:10px;
+  height:35px;
+  border-radius: 10px;
+  width:90px;
+  background-color: black;
+  color: white;
+  cursor:pointer;
+}
+
+.list{
+  list-style-type: none;
+  border:2px solid;
+  border-color: rgb(209,205,205);
+  width:300px;
+  margin-right:100px;
+  height:30px;
+  padding-left:35px;
+  padding-top:8px;
+  background-color: rgb(209, 205, 205);
+}
+
+.sameline{
+  display: flex;
+}
+
+.arrange{
+  justify-content: space-around;
+}
+

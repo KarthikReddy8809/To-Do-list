@@ -44,7 +44,7 @@ A simple To-Do List web application built with **React** and **Vite**. This app 
     npm run dev
     ```
 
-5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the app.
+5. Open your browser and go to (http://localhost:5173/) to view the app.
 
 ## Features and Functionality
 
@@ -53,7 +53,7 @@ A simple To-Do List web application built with **React** and **Vite**. This app 
 
 ## Screenshots
 
-![To-Do List App](./screenshots/todo-app.png)
+https://to-do-list-delta-five-48.vercel.app/
 
 ## Contributing
 
@@ -69,7 +69,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-Feel free to reach out if you have any questions or suggestions. You can contact me via GitHub or email at [your-email@example.com](mailto:your-email@example.com).
+Feel free to reach out if you have any questions or suggestions. You can contact me via GitHub or email at [karthikreddykarri.21@example.com].
 
 ---
 

@@ -24,16 +24,22 @@ const handleDelete = (index) => {
     <h2>To-Do App</h2>
     <input  className="input" type="text" placeholder="Add new to-do" name="newTodo" value={newTodo} onChange={handleChange}/>
     <button className="button" onClick={handleSubmit}>+   Add</button>
-    <ul>
-        {todo.map((item, index) => (
-          <div class="arrange">
-          <li type="checkbox" key={index} className="list">{item}
-          <button  style={{  float:'right' ,cursor:"pointer" }} onClick={() => handleDelete(index)}><i class="fas fa-trash"></i></button>
-          </li>
-          <br/>
-          </div>
-        ))}
-      </ul>
+    {todo
+    .filter((item) => item.trim() !== "") // Filter out empty or whitespace-only todos
+    .map((item, index) => (
+      <div className="arrange" key={index}>
+        <br/>
+        <li className="list">
+          {item}
+          <button
+            style={{ float: "right", cursor: "pointer" }}
+            onClick={() => handleDelete(index)}
+          >
+            <i className="fas fa-trash"></i>
+          </button>
+        </li>
+      </div>
+    ))}
     </div>
 
   )

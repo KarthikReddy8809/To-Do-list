@@ -20,6 +20,10 @@
   cursor:pointer;
 }
 
+.button:hover{
+  background-color:rgb(50,50,50);
+}
+
 .list{
   list-style-type: none;
   border:2px solid;
@@ -40,3 +44,57 @@
   justify-content: space-around;
 }
 
+li{
+  margin-left:30px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .input {
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    padding: 8px 15px;
+  }
+
+  .arrange {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list {
+    margin-bottom: 10px;
+  }
+
+  button i {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .button {
+    width: 100%; /* Make button full width */
+  }
+
+  .arrange {
+    padding: 8px;
+  }
+
+  .input {
+    width: 100%; /* Make input full width */
+  }
+}

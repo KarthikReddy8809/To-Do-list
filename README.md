@@ -53,7 +53,7 @@ A simple To-Do List web application built with **React** and **Vite**. This app 
 
 ## Screenshots
 
-https://to-do-list-delta-five-48.vercel.app/
+https://todo-list-ebon-zeta.vercel.app/
 
 ## Contributing
 
